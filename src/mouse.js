@@ -395,9 +395,9 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
      - mcontext (object) #optional context for moving handler
      - scontext (object) #optional context for drag start handler
      - econtext (object) #optional context for drag end handler
-     * Additionaly following `drag` events are triggered: `drag.start.<id>` on start, 
-     * `drag.end.<id>` on end and `drag.move.<id>` on every move. When element is dragged over another element 
-     * `drag.over.<id>` fires as well.
+     * Additionaly following `drag` events are triggered: `snap.drag.start.<id>` on start, 
+     * `snap.drag.end.<id>` on end and `snap.drag.move.<id>` on every move. When element is dragged over another element 
+     * `snap.drag.over.<id>` fires as well.
      *
      * Start event and start handler are called in specified context or in context of the element with following parameters:
      o x (number) x position of the mouse
